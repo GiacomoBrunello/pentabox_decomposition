@@ -19,7 +19,7 @@ paper or the files please ask the authors.
 (*Massless pentabox*)
 
 
-(* ::Section::Closed:: *)
+(* ::Section:: *)
 (*Setup*)
 
 
@@ -36,6 +36,8 @@ vars={z1,z2,z3,z4,z5,z6,z7,z8,z9,z10,z11};
 relativevars={z1,z2,z3,z4,z5,z6,z7,z8};
 
 masterintegrals={1/(z1 z4 z8),1/(z3 z7 z8),1/(z2 z5 z8),1/(z3 z6 z8),1/(z1 z5 z8),1/(z2 z6 z8),1/(z1 z3 z4 z7),1/(z1 z3 z4 z6),1/(z1 z3 z5 z7),1/(z2 z4 z7 z8),1/(z1 z3 z6 z8),1/(z1 z4 z6 z8),1/(z1 z3 z5 z8),1/(z3 z5 z7 z8),1/(z2 z5 z7 z8),1/(z2 z4 z6 z8),1/(z1 z3 z4 z6 z8),1/(z1 z3 z5 z7 z8),1/(z1 z2 z5 z6 z8),1/(z2 z3 z6 z7 z8),1/(z1 z2 z4 z5 z8),1/(z2 z3 z5 z6 z8),1/(z1 z4 z5 z6 z8),1/(z3 z5 z6 z7 z8),1/(z2 z5 z6 z7 z8),1/(z1 z2 z3 z6 z8),1/(z1 z2 z3 z5 z8),1/(z2 z4 z5 z6 z8),1/(z2 z4 z6 z7 z8),1/(z2 z4 z5 z7 z8),1/(z1 z3 z5 z6 z8),z7/(z1 z3 z5 z6 z8),1/(z1 z2 z4 z6 z8),z7/(z1 z2 z4 z6 z8),1/(z2 z3 z5 z7 z8),z9/(z2 z3 z5 z7 z8),1/(z1 z3 z4 z5 z6 z7),1/(z1 z3 z4 z5 z6 z8),1/(z1 z3 z5 z6 z7 z8),1/(z1 z2 z3 z4 z6 z8),1/(z1 z2 z3 z5 z7 z8),1/(z1 z2 z3 z5 z6 z8),z7/(z1 z2 z3 z5 z6 z8),1/(z1 z2 z4 z5 z6 z8),z9/(z1 z2 z4 z5 z6 z8),1/(z2 z3 z5 z6 z7 z8),z9/(z2 z3 z5 z6 z7 z8),1/(z2 z4 z5 z6 z7 z8),z9/(z2 z4 z5 z6 z7 z8),1/(z1 z2 z3 z4 z6 z7 z8),z9/(z1 z2 z3 z4 z6 z7 z8),1/(z1 z2 z3 z4 z5 z7 z8),z9/(z1 z2 z3 z4 z5 z7 z8),1/(z1 z2 z3 z5 z6 z7 z8),z4/(z1 z2 z3 z5 z6 z7 z8),z9/(z1 z2 z3 z5 z6 z7 z8),1/(z1 z2 z3 z4 z5 z6 z8),z7/(z1 z2 z3 z4 z5 z6 z8),z9/(z1 z2 z3 z4 z5 z6 z8),1/(z1 z2 z3 z4 z5 z6 z7 z8),z9/(z1 z2 z3 z4 z5 z6 z7 z8),z10/(z1 z2 z3 z4 z5 z6 z7 z8)};
+
+targetintegral={z9^2/(z1 z2 z3 z4 z5 z6 z7 z8)};
 
 
 cut1={z1->0,z8->0,z4->0};
