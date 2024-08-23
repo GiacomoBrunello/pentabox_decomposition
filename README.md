@@ -11,3 +11,8 @@ This repository contains the following files:
 target integral, master integrals, and spanning cuts
 for the integral decomposition done in Section 5. 
 For each cut, we are providing the set of variables and the bases used.
+
+-  'getbases.m' containing an implementation of the code used to 
+generate the bases of the cohomology groups.
+
+- 'bases_generation_examples' containing examples on the usage of 'getbases.m'
