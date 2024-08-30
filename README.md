@@ -1,18 +1,19 @@
-Ancillary directory of:
+# Intersection Numbers from Companion Tensor Algebra [2408.16668](https://arxiv.org/abs/2408.16668)
 
-Title: Tensor Structures of Intersection Numbers
+This repository provides ancillary files for the paper
+[Intersection Numbers from Companion Tensor Algebra](https://arxiv.org/abs/2408.16668).
 
-Authors: Giacomo Brunello, Vsevolod Chestnov, Pierpaolo Mastrolia .
+## Authors: Giacomo Brunello, Vsevolod Chestnov, Pierpaolo Mastrolia
 
+## Files in this Repository:
 
-This repository contains the following files:
+- `pentabox_massless.m`:
+    * Contains the Baikov polynomial, target integral, master integrals, and spanning cuts
+      for the integral decomposition discussed in Section 5. 
+    * Provides the set of variable and bases used for each cut.
 
--  'pentabox_massless.m' containing the Baikov polynomial, 
-target integral, master integrals, and spanning cuts
-for the integral decomposition done in Section 5. 
-For each cut, we are providing the set of variables and the bases used.
+- `getbases.m`:
+    * Implements the cohomology groups bases generation algorithm.
 
--  'getbases.m' containing an implementation of the code used to 
-generate the bases of the cohomology groups.
-
-- 'bases_generation_examples' containing examples on the usage of 'getbases.m'
+- `bases_generation_examples.m`:
+    * Contains examples demonstrating the usage of `getbases.m`

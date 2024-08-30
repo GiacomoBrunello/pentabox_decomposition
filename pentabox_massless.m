@@ -2,7 +2,7 @@
 
 (*
 =====================================================================
-Tensor Structures of Intersection Numbers
+Intersection Numbers from Companion Tensor Algebra [2408.16668]
 =====================================================================
 Authors: Giacomo Brunello, Vsevolod Chestnov, Pierpaolo Mastrolia.
 =====================================================================
