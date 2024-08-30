@@ -8,7 +8,7 @@ Authors: Giacomo Brunello, Vsevolod Chestnov, Pierpaolo Mastrolia.
 =====================================================================
 
 This file contains the Baikov polynomial, master integrals, and spanning cuts
-for the integral decomposition done in Section 5. For each cut, we are
+for the integral decomposition done in Section 4. For each cut, we are
 providing the set of variables and the bases used. For questions about the
 paper or the files please ask the authors.
 *)

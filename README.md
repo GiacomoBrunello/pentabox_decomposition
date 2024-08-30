@@ -9,7 +9,7 @@ This repository provides ancillary files for the paper
 
 - `pentabox_massless.m`:
     * Contains the Baikov polynomial, target integral, master integrals, and spanning cuts
-      for the integral decomposition discussed in Section 5. 
+      for the integral decomposition discussed in Section 4. 
     * Provides the set of variable and bases used for each cut.
 
 - `getbases.m`:
